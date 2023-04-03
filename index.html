@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Estudos Electron</title>
+      <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+      <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="intro">
+         <h1>Documentação de Tarefa</h1>
+         <p>Estou usando Node -v <script>document.write(process.versions.node)</script>,
+            Chrome <script>document.write(process.versions.chrome)</script>,
+            and Electron <script>document.write(process.versions.electron)</script>.
+         </p>
+      </div>
+      <div class="card__todo">
+         <h2>Registro de Atividades desenvolvido em Eletron</h2>
+         <input type="text" onkeyup="addNewTodo(event)"  id="inputTodo" placeholder="Escreva sua atividade...">
+         <span onclick="addNewTodo()" class="btn__add">Adicionar</span>
+      </div>
+      <ul id="ulTodo">
+      </ul>
+      <script src="script.js" defer>
+      </script>
+   </body>
+</html>
