@@ -1,15 +1,16 @@
 <h1 align="center">👋 toDo-List ElectronJS</h1>
 
+<br>
+
 ## Tecnologias Usadas
 
-- Electron
-- Javascript
-- HTML
-- CSS
-- Node.js
+- HTML e CSS
+- Electron.JS
+- Node.JS
 
 ## Licença
 
-Este projeto está sob  [MIT](./LICENSE).
+Esse projeto está sob a licença MIT.
 
+Projeto desenvolvido por André Higino Carioca 🧑‍💻 💚
 
